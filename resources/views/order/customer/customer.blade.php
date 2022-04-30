@@ -73,7 +73,7 @@
                             </label>
                         </h6>
                         <span>
-                            Wheelie-bins have a once-off $40 payment which can be paid upfront or deducted in 10$ installments.
+                            Wheelie-bins have a once-off Rs 400 which can be paid upfront or deducted in Rs 100 installments.
                         </span>
                     </div>
                     <div class="widget-user-image">

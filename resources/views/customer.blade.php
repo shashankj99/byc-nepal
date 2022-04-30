@@ -82,7 +82,7 @@
         <div class="card">
             <div class="card-body">
                 <div class="d-flex flex-column justify-content-center">
-                    <h3 class="text-bold text-center mb-2">$ {{ $current_balance }}</h3>
+                    <h3 class="text-bold text-center mb-2">Rs. {{ $current_balance }}</h3>
                     <span class="text-info text-center mb-3">Personal Refund Balance</span>
                     <a href="{{ route("customer.refunds") }}" class="btn btn-dark btn-block">
                         View all refunds

@@ -148,14 +148,12 @@ class LocationController extends Controller
     public function makeDefaultLocation($id): \Illuminate\Http\JsonResponse
     {
         try {
-            $user_address = UserAddress::where("user_id", "=", auth()->id())
-                ->where("id", "=", $id)
+            $user_address = UserAddress::where("id", "=", $id)
                 ->firstOrFail();
 
             $user_address->update(["is_default" => "1"]);
 
             UserAddress::where("id", "!=", $id)
-                ->where("user_id", "=", auth()->id())
                 ->update(["is_default" => "0"]);
 
             return response()->json(["message" => "Successful"], 200);
@@ -174,8 +172,7 @@ class LocationController extends Controller
     public function delete($id): \Illuminate\Http\JsonResponse
     {
         try {
-            $user_address = UserAddress::where("user_id", "=", auth()->id())
-                ->where("id", "=", $id)
+            $user_address = UserAddress::where("id", "=", $id)
                 ->firstOrFail();
 
             $user_address->delete();

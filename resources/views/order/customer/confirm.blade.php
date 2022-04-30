@@ -45,7 +45,7 @@
                     </span>
                     @if($pre_order->subscription->name == "Personal")
                         <span>
-                          Refunds (7c for each item) will be deposited in the nominated bank account
+                          Refunds will be deposited in the nominated bank account
                         </span>
                     @endif
                 </div>

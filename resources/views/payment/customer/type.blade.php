@@ -52,7 +52,7 @@
                                 </label>
                             </h5>
                             <p class="card-text text-muted">
-                                Selecting this option will deduct 4 * $10 from the first four payout amounts
+                                Selecting this option will deduct 4 * Rs 100 from the first four payout amounts
                             </p>
                         </div>
                     </div>
