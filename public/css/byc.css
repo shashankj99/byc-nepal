@@ -1,0 +1,140 @@
+.form-control {
+  height: 45px;
+}
+
+.text-sm .select2-container--default .select2-selection--single, select.form-control-sm ~ .select2-container--default .select2-selection--single {
+  height: 45px;
+  padding: 0.375rem 0.75rem;
+  border-color: #ced4da;
+}
+
+.text-sm .select2-container--default .select2-selection--single .select2-selection__rendered, select.form-control-sm ~ .select2-container--default .select2-selection--single .select2-selection__rendered {
+  margin-top: 0;
+  padding: 0;
+}
+
+.text-sm .select2-container--default .select2-selection--single .select2-selection__arrow, select.form-control-sm ~ .select2-container--default .select2-selection--single .select2-selection__arrow {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.card-body .form-check, .custom-box .form-check {
+  padding: 0;
+}
+
+.card-body .form-check-input, .custom-box .form-check-input {
+  display: none;
+}
+
+.card-body .form-check-input:checked + .form-check-label:after, .custom-box .form-check-input:checked + .form-check-label:after {
+  width: 8px;
+  height: 8px;
+  background: #212529;
+  top: 8px;
+  right: 4px;
+}
+
+.card-body .form-check-label, .custom-box .form-check-label {
+  position: relative;
+  padding-right: 24px;
+  width: 100%;
+}
+
+.card-body .form-check-label:before, .custom-box .form-check-label:before {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #212529;
+  border-radius: 50%;
+  top: 4px;
+  right: 0;
+}
+
+.card-body .form-check-label:after, .custom-box .form-check-label:after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #212529;
+  border-radius: 50%;
+  top: 4px;
+  right: 0;
+}
+
+.custom-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.custom-box .widget-user-header {
+  flex: 0 0 60%;
+  max-width: 60%;
+  text-align: left;
+  height: auto;
+}
+
+.custom-box .widget-user-image {
+  margin-left: 0;
+  position: static;
+  flex: 0 0 40%;
+  max-width: 40%;
+  padding: 16px 30px 16px 0;
+}
+
+.custom-box .form-check-label {
+  position: static;
+}
+
+.custom-box .form-check-label:before, .custom-box .form-check-label:after {
+  top: 20px;
+  right: 15px;
+}
+
+.custom-box .form-check-input:checked + .form-check-label:after {
+  top: 24px;
+  right: 19px;
+}
+
+
+.login-box .form-check {
+  padding-left: 25px;
+}
+
+.login-box .form-check input {
+  display: none;
+}
+
+.login-box .form-check input:checked + label:after {
+  background: #212529;
+}
+
+.login-box .form-check label {
+  position: relative;
+}
+
+.login-box .form-check label:before, .login-box .form-check label:after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #212529;
+  top: 4px;
+  left: -24px;
+}
+
+.info-box .info-box-icon {
+  width: auto;
+  flex: 0 0 70px;
+  max-width: 70px;
+}
+
+.info-box .info-box-content {
+  flex: 0 0 calc(100% - 70px);
+  max-width: calc(100% - 70px);
+}
+
+
+h5.card-title {
+  width: 100%;
+}

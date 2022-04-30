@@ -1,0 +1,125 @@
+body {
+	 font-family: 'Raleway', sans-serif;
+	 background: #ace6a9;
+	 font-size: 25px;
+	 line-height: 30px;
+	 color: #000;
+	 overflow-x: hidden;
+}
+ @media (max-width: 991px) {
+	 body {
+		 font-size: 18px;
+		 line-height: 22px;
+	}
+}
+
+img {
+	max-width: 100%;
+}
+
+
+ .row {
+	 margin-left: -20px;
+	 margin-right: -20px;
+}
+ .row > div[class*="col-"] {
+	 padding-right: 20px;
+	 padding-left: 20px;
+}
+ h2 {
+	 font-size: 32px;
+	 line-height: 40px;
+	 font-weight: 700;
+	 margin-bottom: 35px;
+}
+ @media (max-width: 991px) {
+	 h2 {
+		 font-size: 24px;
+		 line-height: 30px;
+		 margin-bottom: 25px;
+	}
+}
+ p {
+	 font-size: 25px;
+	 line-height: 30px;
+	 margin-bottom: 0;
+}
+ @media (max-width: 991px) {
+	 p {
+		 font-size: 18px;
+		 line-height: 22px;
+	}
+}
+ p strong {
+	 font-weight: 700;
+}
+ p + p {
+	 margin-top: 30px;
+}
+ p.small {
+	 font-style: italic;
+}
+ p a {
+	 color: inherit;
+}
+ .main-body {
+	 padding: 50px 0 15px;
+	 border-top: 20px solid #fff;
+}
+@media (max-width: 991px) {
+	 .main-body {
+		 border-top: 10px solid #fff;
+	}
+}
+ .content-button {
+	 margin-bottom: 30px;
+}
+ @media (max-width: 991px) {
+	 .area {
+		 margin-top: 40px;
+	}
+}
+ .customers {
+	 padding: 70px 0;
+}
+
+@media (max-width: 991px) {
+	.customers {
+		padding: 40px 0;
+	}
+}
+
+ .customers .single-customer {
+	 margin-bottom: 40px;
+}
+ footer {
+	 background: #78d0f6;
+	 padding: 55px 0;
+}
+ footer ul {
+	 text-align: right;
+	 margin: 0;
+}
+ @media (max-width: 767px) {
+	 footer ul {
+		 text-align: center;
+		 margin-top: 25px;
+	}
+}
+ footer ul li {
+	 display: inline-block;
+	 margin-right: 10px;
+}
+ footer ul li:last-child {
+	 margin-right: 0;
+}
+ @media (max-width: 1199px) {
+	 footer ul li a img {
+		 width: 70px;
+	}
+}
+ @media (max-width: 991px) {
+	 footer ul li a img {
+		 width: 50px;
+	}
+}
